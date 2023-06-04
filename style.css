@@ -63,11 +63,12 @@ h2{
     margin-right: 30px;
 }
 h3{
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
     margin: 0;
     position: relative;
     top: 85px;
-    margin-right: 90px;
+    margin-right: 50px;
 }
 .progress-container{
     height: 4px;
@@ -121,7 +122,20 @@ h3{
     bottom: 65px;
 }
 .foot{
-    background-color: black;
-    color: white;
+    background-color: #E8F6EF;
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-around;
+    
 
+}
+.foot-left ul,.foot-right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px,24px;
+}
+.foot-left ul li{
+    padding-left: 50px;
+    padding-right: 300px;
 }
